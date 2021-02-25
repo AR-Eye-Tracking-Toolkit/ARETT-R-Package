@@ -1,0 +1,12 @@
+Package: arett
+Type: Package
+Title: Augmented Reality Eye Tracking Toolkit for Head Mounted Displays
+Version: 0.1.0
+Author: Sebastian Kapp
+Maintainer: Sebastian Kapp <kapp@physik.uni-kl.de>
+Description: This package contains analysis skripts which process the log files
+    created by the \link[=https://gitlab.rhrk.uni-kl.de/be-greifen/arett][Augmented Reality Eye Tracking Toolkit].
+License: (c) Sebastian Kapp. Licensed under the MIT License.
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
