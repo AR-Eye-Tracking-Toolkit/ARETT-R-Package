@@ -38,8 +38,8 @@ calculate_velocity <- function(data, window_length = 20) {
   # Calculate how many samples are to be analyzed using the window length in ms ----
 
   # Make sure we have 100 rows which we can analyze, if not analyze all available rows
-  maxRow <- 100
-  if (nrow(data) < 100) maxRow <- nrow(data)
+  maxRow <- 100000
+  if (nrow(data) < 100000) maxRow <- nrow(data)
 
   # Go through the first 100 samples (or less) to find the average time between samples
   sampleTime <- 0
